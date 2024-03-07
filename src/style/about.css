@@ -1,0 +1,52 @@
+.about {
+  width: 70%;
+  height: 70vh;
+  /* padding: 250px; */
+  margin: auto;
+  /* background-color: blue; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about > form {
+  /* background-color: aqua; */
+  width: 70%;
+  height: 50%;
+  display: flex;
+  margin: 2rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about > form > div {
+  width: 60%;
+  height: 3rem;
+  /* background-color: brown; */
+  justify-content: flex-end;
+  display: flex;
+}
+
+.about > form > div > label {
+  width: 30%;
+  margin: 0 1rem;
+  /* background-color: red; */
+}
+
+.about > form > div > input{
+    align-self: stretch;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.btn {
+    border: 10px;
+    padding: 0.50rem 5rem;
+    cursor: pointer;
+    margin: 2rem 0;
+    background-color: red;
+    color: black;
+}

@@ -1,0 +1,14 @@
+  * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  .nav-logo{
+    font-size: xx-large;
+    color: red;
+
+}

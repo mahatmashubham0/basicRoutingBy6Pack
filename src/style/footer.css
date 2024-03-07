@@ -1,0 +1,55 @@
+
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+.footer > .footer-left{
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+     width: 30%;
+    /* height: 100%; */
+}
+.footer > .footer-right{
+    display: flex;
+    /* background-color: blue; */
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    align-self: center;
+    text-align: center;
+}
+.footer > .footer-right > div > svg{
+    font-size: 4rem;
+}
+.footer > .footer-right > div{
+    width: 8rem;
+    height: 8rem;
+    background-color: red;
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: column;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: imgUp 0.5s linear infinite alternate;
+}
+
+@keyframes imgUp {
+    to {
+      transform: translateY(-10px);
+    }
+  }
+
+.footer > .footer-right > div:hover{
+    background-color: darkred;
+}

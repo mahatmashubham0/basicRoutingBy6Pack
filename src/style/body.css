@@ -1,0 +1,123 @@
+.body {
+  width: 100%h;
+  height: 100vh;
+  background-color: lightgreen;
+  border-radius: 0 0 200px 200px;
+}
+
+.body > main {
+  position: absolute;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  background-color: darkred;
+  height: 100%;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.body > main > h1 {
+  font: 400 6rem black;
+}
+
+.body > main > p {
+  font: 900 3rem black;
+}
+
+/* /////////////////////////////////////////////// */
+
+.body2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+  align-items: center;
+}
+
+.body2 > img {
+  width: 30%;
+  animation: imgUp 0.5s linear infinite alternate;
+}
+
+.body2 > main {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.body2 > main > h1 {
+  font: 400 6rem bold;
+}
+
+@keyframes imgUp {
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.body3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets//img1.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* background-color: blue; */
+  /* align-items: center; */
+}
+
+
+.body3 {
+  width: 100%;
+  height: 100vh;
+}
+
+.body3 > main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.body3 > main > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background-color: yellow; */
+  padding: 5px;
+}
+
+.body3-btn {
+  display: flex;
+  width: 80%;
+  display: flex;
+  gap: 50rem;
+  justify-content: flex-end;
+}
+
+.body3-btn > button {
+  padding: 1rem 3rem;
+  border-radius: 25px;
+  cursor: pointer;
+  color: red;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.body3 > main > h1 {
+  position: relative;
+  margin-top: -200px;
+  font: 600 5rem black;
+  padding-bottom: 150px;
+}
